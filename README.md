@@ -1,5 +1,4 @@
-# jieba_api
-#simple jieba api (python)#
+# jieba_api (a simple jieba api, written in python) #
 
 sample code for flask api which import jieba to cut chinese sentense to phases. 4 mode can be used.
 
