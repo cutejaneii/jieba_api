@@ -35,8 +35,8 @@ input_files.append('files/gacc_stacked_words.xlsx,B,') #gacc_stacked_words.xlsx 
 
 input_files.append('files/gacc_common_saying.xlsx,B,') #gacc_common_saying.xlsx 中華文化總會_臺灣常見俗諺語表
 
-input_files.append('files/moe_idiom.xlsx,B,') #moe_idiom.xlsx 教育部_成語
-input_files.append('files/moe_dict.xlsx,B,')  #moe_dict.xlsx 教育部_國語詞典
+input_files.append('files/moe_idiom.xls,B,') #moe_idiom.xls 教育部_成語
+input_files.append('files/moe_dict.xls,B,')  #moe_dict.xls 教育部_國語詞典
 input_files.append('files/gacc_dict.xlsx,F,O') #gacc_dict.xlsx 中華語文大辭典全稿
 
 text_file = open(output_filename, 'w')
