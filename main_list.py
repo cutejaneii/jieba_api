@@ -47,7 +47,7 @@ def jieba_parse():
                 output_data=[]
 
                 jieba.set_dictionary('dict.txt.big')
-                jieba.load_userdict('my.dict.txt')
+                jieba.load_userdict('userdict.txt')
 
                 for d in input_data:
                         result_str = jieba_work(d['mode'].encode('utf-8'), d['sentense'])
