@@ -30,6 +30,7 @@ input_files.append('files/gacc_solar_terms.xlsx,C,') #gacc_solar_terms.xlsx 中�
 
 input_files.append('files/gacc_relatives_title.xlsx,E,') #gacc_relatives_title.xlsx 中華文化總會_親屬稱謂中英對照表
 input_files.append('files/gacc_relatives_title.xlsx,F,')
+input_files.append('files/gacc_relatives_title.xlsx,G,')
 
 input_files.append('files/gacc_stacked_words.xlsx,B,') #gacc_stacked_words.xlsx 中華文化總會_臺灣常用疊詞表
 
