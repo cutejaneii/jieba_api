@@ -53,8 +53,10 @@ for input_file in input_files:
                 if (len(value)>0):
                         desc_column = input_file.split(',')[2]
                         word_speech = 'n'
+                        # 如果在描述的字裡有出現「形容」二個字，則把這個詞的詞性標註為「形容詞」，否則以「名詞」論
                         if (len(desc_column) > 0):
                                 word_speech=get_speech(sheet.cell_value(i+1, dict_column[desc_column]))
+                        #將資料寫入TXT中
                         text_file.write(value.encode('utf-8')+' 1 '+ word_speech +'\n')
                         count=count+1
                 print('processing ('+ filename +') -> '+ str(i) +'/' + str(sheet.nrows) + ':' + value)
