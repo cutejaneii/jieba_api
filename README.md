@@ -35,7 +35,7 @@ output: ,南極洲(ns),在(p),地球(n),的(uj),最南端(f),，(x),是(v),世�
 
 ## <font color='blue'>transformer</font> ##
 我們在此專案中，利用 jieba_api/transformer/xls_to_jieba_dict.py 來進行資料的轉換，
-先從 萌典 & 中華語文總會 取得資料後，將其轉換成 JIEBA 的格式
+先從 萌典 & 中華語文總會 取得資料後，將其轉換成 JIEBA 的格式(即userdict.txt)
 目前已成功轉換202830筆資料
 
 本專案 轉換的 資料表如下
