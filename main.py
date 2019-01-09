@@ -10,6 +10,8 @@ app = Flask(__name__)
 def jieba_parse():
         original_sentense = request.json['sentense']
         jieba_mode = request.json['mode']
+        jieba.set_dictionary('dict_taiwan.txt') # from https://github.com/ldkrsi/jieba-zh_TW/blob/master/jieba/dict.txt
+        jieba.load_userdict('userdict.txt')
 
         return_word=''
 
