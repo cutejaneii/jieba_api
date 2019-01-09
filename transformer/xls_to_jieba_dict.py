@@ -4,7 +4,7 @@ import xlrd
 def get_speech(word):
         speech = 'n'
         if '人名' in word.encode('utf-8'):
-                speech = 'nr'   # jieba 詞性'a'代表是形容詞
+                speech = 'nr'   # jieba 詞性'nr'代表是人名
         if '形容' in word.encode('utf-8'):
                 speech = 'a'   # jieba 詞性'a'代表是形容詞
         return speech
