@@ -46,7 +46,7 @@ def jieba_parse():
 
                 output_data=[]
 
-                jieba.set_dictionary('dict.txt.big')
+                jieba.set_dictionary('dict_taiwan.txt')
                 jieba.load_userdict('userdict.txt')
 
                 for d in input_data:
