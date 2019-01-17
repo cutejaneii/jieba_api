@@ -54,3 +54,6 @@ output: ,南極洲(ns),在(p),地球(n),的(uj),最南端(f),，(x),是(v),世�
 <tr><td>moe_idiom.xls</td><td>教育部_成語</td></tr>
 <tr><td>moe_dict.xls</td><td>教育部_國語詞典</td></tr>
 </table>
+
+Log~
+2019/01/17 - 將地點、時間加入userdict.txt
